@@ -6,7 +6,7 @@ A Pattern Lab-Node wrapper for [Evan Lovely's](https://github.com/EvanLovely) ex
 
 ## Install
 
-(coming to an NPM registry near you)
+`npm install --save plugin-node-scsstojson`
 
 (Remember to run `NPM run postinstall` in your Pattern Lab base directory.)
 
