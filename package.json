@@ -1,0 +1,31 @@
+{
+  "name": "plugin-node-scsstojson",
+  "version": "1.0.0",
+  "description": "A plugin for Pattern Lab that compiles specific scss files to pattern-specific data.json files",
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "SCSS to JSON",
+    "Node",
+    "SCSS",
+    "JSON",
+    "Javascript"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cloudsociety/plugin-node-scsstojson.git"
+  },
+  "bugs": "https://github.com/cloudsociety/plugin-node-scsstojson/issues",
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  },
+  "author": "David Cross",
+  "license": "MIT",
+  "engines": {
+    "node": ">=5.0"
+  },
+  "dependencies": {
+    "scsstojson": "^1.0.2"
+  }
+}
